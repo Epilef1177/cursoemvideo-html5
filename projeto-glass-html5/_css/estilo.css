@@ -24,7 +24,7 @@ a:hover{
 
 /*Formatation of <div id="interface">*/
 div#interface{
-    width: 900px;
+    width: 1200px;
     margin: -18px auto 0px auto;
     margin: -18px auto -10px auto;
     padding: 10px;
@@ -38,8 +38,8 @@ header#cabecalho{
 }
 header#cabecalho img#icon{
     position: absolute;
-    left: 780px;
-    top: 70px;
+    left: 1090px;
+    top: 65px;
 }
 header#cabecalho h1{
     padding: 0px;
@@ -59,7 +59,7 @@ header#cabecalho h2{
 /*Formatation of id="menu"*/
 nav#menu ul{
     top: -20px;
-    left: 300px;
+    left: 500px;
     position: absolute;
     list-style: none;
     text-transform: uppercase;
@@ -93,7 +93,7 @@ nav#menu a:hover{
 /*Formatation of <section id="sectionBody">*/
 section#sectionBody{
     display: block;
-    width: 510px;
+    width: 810px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 10px;

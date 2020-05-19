@@ -1,0 +1,18 @@
+@charset "UTF-8";
+section#content{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+iframe#frame-spec{
+    width: 440px;
+    height: 330px;
+    margin-left: 45px;
+    border: none;
+    overflow: hidden;
+}
+iframe#frame-spec::-webkit-scrollbar{
+    display: none;
+}
+section#content img{
+    margin-left: 70px;
+}
