@@ -1,29 +1,65 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>    
+    <meta charset="UTF-8">
+    <title>Google Glass</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="_css/fotos.css"/>
+    <script type="text/javascript">
+        function modifyPhoto(photo){
+            document.getElementById("icon").src=photo;
+        }
+    </script>
+    
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>    
+            <img id="icon" src="_imagens/fotos.png"/>  
 
-[AQUI ENTRA UMA FOTO]
+            <nav id="menu">
+                <ul>
+                <h1>Menu Principal</h1>
+                <li onmouseover="modifyPhoto('_imagens/glass-oculos-preto-peq.png')" onmouseout="modifyPhoto('_imagens/fotos.png')"><a href="../index.html">Home</a></li>
+                <li class="fixMargin" onmouseover="modifyPhoto('_imagens/especificacoes.png')" onmouseout="modifyPhoto('_imagens/fotos.png')"><a href="specs.html">Especificações</a></li>
+                <li onmouseover="modifyPhoto('_imagens/fotos.png')" onmouseout="modifyPhoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmouseover="modifyPhoto('_imagens/multimidia.png')" onmouseout="modifyPhoto('_imagens/fotos.png')"><a href="multimidia.html">Multimídia</a></li>
+                <li onmouseover="modifyPhoto('_imagens/contato.png')" onmouseout="modifyPhoto('_imagens/fotos.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+        <section id="content">
+            <article id="newsMain">
+                <header id="headerArticle">
+                    <hgroup>
+                        <h3>Glass > Fotos</h3>
+                        <h1>Galeria de Imagens do Google Glass</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="right">Atualizado em 01/Maio/2013</h3>
+                    </hgroup>
+                </header>
 
-Glass > Fotos
-Galeria de Imagens do Google Glass
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
-
-Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.
-
-- Agenda e lembretes
-- Sergey Brin usando o Glass
-- Leve e compacto
-- Sensação de uma tela de 50"
-- Vários tipos de lente
-- Informações importantes
-
-Copyright 2013 - by Gustavo Guanabara
-
-Facebook | Twitter
+                <p>Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.</p>
+                <ul id="photoAlbum">
+                    <li id="photo-01"><span>Agenda e lembretes         </span></li>
+                    <li id="photo-02"><span>Sergey Brin usando o Glass </span></li>
+                    <li id="photo-03"><span>Leve e compacto            </span></li>
+                    <li id="photo-04"><span>Sensação de uma tela de 50"</span></li>
+                    <li id="photo-05"><span>Vários tipos de lente      </span></li>
+                    <li id="photo-06"><span>Informações importantes    </span></li>
+                </ul>
+        <footer id="footDown">
+            <p>Copyright &copy; 2013 - by Gustavo Guanabara</p>
+            <p> <a href="https://www.facebook.com/CursosEmVideo/" target="_blank">Facebook</a> | 
+                <a href="https://twitter.com/cursosemvideo" target="_blank">Twitter</a> |
+                <a href="https://www.instagram.com/cursoemvideo/?hl=pt-br" target="_blank">Instagram</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
