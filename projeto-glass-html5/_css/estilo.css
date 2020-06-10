@@ -109,6 +109,9 @@ aside#sideBar{
   margin-top: 10px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 } 
+aside#sideBar video#idVideoHomeAside{
+    width: 348px;
+}
 aside#sideBar h1{
     font-family: "fonteLogo" ,sans-serif;
     font-size: 20pt;
@@ -162,6 +165,9 @@ header#headerArticle h2{
 header#headerArticle h3{
     font-size: 12pt;
     color: #606060;
+}
+video#idVideoHome{
+    margin-left: 150px;
 }
 
 /*Formatation of Images With Legends*/
